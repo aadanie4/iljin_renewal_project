@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\.."
+		},
+		{
+			"path": "C:\\Users\\309\\Documents\\카카오톡 받은 파일\\renewal_iljin\\script"
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"powermode.presets": "magic",
+		"powermode.enabled": true,
+		"liveServer.settings.multiRootWorkspaceName": "HTML_CSS"
+	}
+}

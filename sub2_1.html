@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ILJIN_MATERIALS</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700;900&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- webfont -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+     <!-- aos css -->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/sub2_1.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./script/main.js"></script>
+    <!-- aos cdn -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <header>
@@ -76,35 +82,39 @@
         </nav> -->
         </div>
     </header>
-    <div id="sub_banner2">
-        <section class="sec1">
-        <h1>Products</h1>
-        <h1>&Business</h1>
-        </section>
-        <section class="sub_head">
-            <ul>
-                <li><a href="./sub2_1.html">사업소개</a></li>
-                <li><a href="#">제품&추진사업</a></li>
-                <li><a href="#">ELECFOIL</a></li>
-                <li><a href="#">ENERGY</a></li>
-                <li><a href="#">SENSOR</a></li>
-            </ul>
-        </section>
-    </div>
-
+    <!-- sub main-->
+    <section id="sub_visual">
+        <div data-aos="fade-left" data-aos-duration="1500" class="visual">
+            <div class="sub_title" data-aos="fade-left" data-aos-duration="1800">
+                <h1 class="first">business</h1>
+                <h1 class="second">ILJIN Materials</h1>
+            </div>
+        </div>
+        <div class="sub_lnb" data-aos="fade-left" data-aos-duration="2000">
+            <nav>
+                <ul data-aos="fade-left" data-aos-duration="2500">
+                    <li class="active"><a href="./sub1_1.html">기업소개</a></li>
+                    <li><a href="#">제품&추진사업</a></li>
+                    <li><a href="#">Elecfoil</a></li>
+                    <li><a href="#">Energy</a></li>
+                    <li><a href="#">Sensor</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
     <!--  main content -->
     <article id="sub_main">
         <section class="sub_sec1">
-            <img src="./image/SUB-1.png" alt="서브1">
+            <img src="./image/SUB-1.png" alt="서브1" data-aos="fade-up" data-aos-offset="500" data-aos-duration="1500">
             <div class="cont1_1">
-            <h3>ELECFOIL</h3>
-            <h3>BUSINESS</h3>
+            <h3 data-aos="fade-up" data-aos-duration="1500">ELECFOIL</h3>
+            <h3 data-aos="fade-up" data-aos-duration="2500">BUSINESS</h3>
             <div>일진 Materials는 고부가가치 Elecfoil 신제품 개발로 첨단 전자기기의 진화를 이끌고 있습니다.</div>
             <p><a href="#">관련제품보기 <span class="plus">&#43;</span></a></p>
             </div>
             <div class="cont1_2">
-                <h4>Elecfoil</h4>
-                <p>Elecfoil 이란 이러한 PCB의 회로를 구성하는 얇은 Copper Foil로, Copper Wire를 용해 시킨 CuSO4 전
+                <h4 data-aos="fade-up" data-aos-duration="1500">Elecfoil</h4>
+                <p data-aos="fade-up" data-aos-duration="1500">Elecfoil 이란 이러한 PCB의 회로를 구성하는 얇은 Copper Foil로, Copper Wire를 용해 시킨 CuSO4 전
                     해액으로부터 Copper를 석출시켜 고객의 요구에 맞도록 첨단 프로세스를 거쳐 TV, 컴퓨터, 휴대
                     폰을 비롯한 전자제품 전반에 사용하는 핵심 소재입니다. <br>
                     일진Materials는 IT산업의 급격한 변화에 발맞추어 첨단 전자기기의 소형화 및 다기능화에 주목, 고부가가치의 고기능 특
@@ -117,7 +127,7 @@
             </div>
         </section>
         <section class="sub_sec2">
-            <img src="./image/SUB-2.png" alt="서브2">
+            <img src="./image/SUB-2.png" alt="서브2"  data-aos="fade-up" data-aos-offset="500" data-aos-duration="1500">
             <div class="cont2_1">
             <h3>ENERGY</h3>
             <h3>BUSINESS</h3>
@@ -125,8 +135,8 @@
             <p><a href="#">관련제품보기 <span class="plus">&#43;</span></a></p>
             </div>
             <div class="cont2_2">
-                <h4>LMO</h4>
-                <p>2Lithium manganese oxide(LMO)는 스피넬 결정구조형 리튬망간 산화물로 뛰어난 구조적 
+                <h4 data-aos="fade-up" data-aos-duration="1500">LMO</h4>
+                <p data-aos="fade-up" data-aos-duration="1500"> 2Lithium manganese oxide(LMO)는 스피넬 결정구조형 리튬망간 산화물로 뛰어난 구조적 
                     안정성을 가진 물질로써, <br> 다른 양극재보다 가격 대비 성능이 우수한 제품입니다. <br>
                     
                     2009년까지 LMO의 주 수요처는 고출력 특성을 요구하는 전동공구용 리튬2차전지였으며, 
@@ -141,16 +151,16 @@
             </div>
             </section>
             <section class="sub_sec3">
-                <img src="./image/SUB-3.png" alt="서브3">
+                <img src="./image/SUB-3.png" alt="서브3"  data-aos="fade-up" data-aos-offset="500" data-aos-duration="1500">
                 <div class="cont3_1">
-                <h3>SENSOR</h3>
+                <h3 >SENSOR</h3>
                 <h3>BUSINESS</h3>
                 <div>4차 산업혁명시대의 핵심 기술 센서. MEMS 자기센서 라인업 사업 추진</div>
                 <p><a href="#">관련제품보기 <span class="plus">&#43;</span></a></p>
                 </div>
                 <div class="cont3_2">
-                    <h4>MEMS 자기센서 라인업</h4>
-                    <p>MEMS 자기센서는 미세한 자기장을 정밀하게 감지하여 방위/전류/위치/금속유무 등의 정보를 제
+                    <h4 data-aos="fade-up" data-aos-duration="1500">MEMS 자기센서 라인업</h4>
+                    <p data-aos="fade-up" data-aos-duration="1500">MEMS 자기센서는 미세한 자기장을 정밀하게 감지하여 방위/전류/위치/금속유무 등의 정보를 제
                         공하는 IT산업의 핵심 센서입니다.<br>
                         
                         일진머티리얼즈는 국내 대표 부품소재업체로써 우수한 소재기술을 바탕으로 세계 최고 수준의 고
@@ -197,5 +207,8 @@
             </div>
         </div>
     </footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>

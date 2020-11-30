@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ILJIN_MATERIALS</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700;900&family=Noto+Sans+KR:wght@300;400;700&display=swap"
-        rel="stylesheet">
+     <!-- webfont -->
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet">
+      <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/sub1_6.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- aos cdn -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./script/main.js"></script>
 </head>
 
@@ -81,50 +85,55 @@
         </nav> -->
         </div>
     </header>
-    <div id="sub_banner2">
-        <section class="sec1">
-            <h1>The ILJIN</h1>
-            <h1>Company</h1>
-        </section>
-        <section class="sub_head">
-            <ul>
-                <li><a href="./sub1_2.html">기업소개</a></li>
-                <li><a href="#">CEO인사말</a></li>
-                <li><a href="#">연구개발</a></li>
-                <li><a href="#">윤리경영</a></li>
-                <li><a href="#">CI</a></li>
-                <li><a href="./sub1_6.html">사업장안내</a></li>
-            </ul>
-        </section>
-    </div>
-
-    <!-- contents -->
-    <div id="location">
-        <h4><strong>사업장 안내</strong></h4>
-        <ul>
-            <li><a href="#">서울본사</a></li>
-            <li><a href="#">익산공장</a></li>
-            <li><a href="#">삼기공장</a></li>
-            <li><a href="#">일진건설</a></li>
-            <li><a href="#">일진유니스코</a></li>
-            <li><a href="#">IMM</a></li>
-        </ul>
-        <div id="address">
-            <h4>서울본사</h4>
-            <h4>ADDRESS</h4>
-            <h4>서울특별시 마포구 마포대로 45(도화동)</h4>
+    <!-- sub visual -->
+    <section id="sub_visual">
+        <div data-aos="fade-left" data-aos-duration="1500" class="visual">
+            <div class="sub_title" data-aos="fade-left" data-aos-duration="1800">
+                <h1 class="first">location</h1>
+                <h1 class="second">ILJIN Materials</h1>
+            </div>
         </div>
-        <div id="map">
+        <div class="sub_lnb" data-aos="fade-left" data-aos-duration="2000">
             <nav>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d790.904218670504!2d126.94616084873094!3d37.54052769596058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c98af7a3e7519%3A0xb314f1f15ab8443e!2z7J287KeE7KCE6riwIOuzuOyCrA!5e0!3m2!1sko!2skr!4v1605504551690!5m2!1sko!2skr"
-                    width="1200" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                    tabindex="0"></iframe>
+                <ul data-aos="fade-left" data-aos-duration="2500">
+                    <li><a href="./sub1_2.html">기업소개</a></li>
+                    <li><a href="#">CEO인사말</a></li>
+                    <li><a href="#">연구개발</a></li>
+                    <li><a href="#">윤리경영</a></li>
+                    <li><a href="#">CI</a></li>
+                    <li class="active"><a href="./sub1_6.html">사업장안내</a></li>
+                </ul>
             </nav>
         </div>
-    </div>
-
-
+    </section>
+    <!-- contents -->
+    <section id="location">
+        <div class="location_title">
+            <h2>Location</h2>
+            <h3>사업장 안내</h3>
+        </div>
+        <nav class="branch">
+            <ul>
+                <li class="selected"><a href="#">서울본사</a><span> | </span></li>
+                <li><a href="#">&nbsp;익산공장</a><span> | </span></li>
+                <li><a href="#">&nbsp;삼기공장</a><span> | </span></li>
+                <li><a href="#">&nbsp;IMM</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section id="map">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d790.904218670504!2d126.94616084873094!3d37.54052769596058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357c98af7a3e7519%3A0xb314f1f15ab8443e!2z7J287KeE7KCE6riwIOuzuOyCrA!5e0!3m2!1sko!2skr!4v1605504551690!5m2!1sko!2skr"
+            width="1200" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+            tabindex="0"></iframe>
+    </section> 
+    <section id="desc">
+        <div class="line"></div>
+        <div class="text">
+            <p class="address">ADDRESS</p>
+            <p>서울 특별시 마포구 마포대로 45(도화동)</p>
+        </div>
+    </section>
     <!-- footer -->
     <footer id="main_footer">
         <div class="mfot">
@@ -156,6 +165,9 @@
             </div>
         </div>
     </footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

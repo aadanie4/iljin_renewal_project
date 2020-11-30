@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ILJIN_MATERIALS</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700;900&family=Noto+Sans+KR:wght@300;400;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700;900&family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- aos css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- aos cdn -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./script/main.js"></script>
+
 </head>
 
 <body>
@@ -93,11 +96,11 @@
         <div class="text">
             <div class="graphic_text">
                 <h4 class="utcText"><span>국내 최초</span><br>1.5㎛ 초극박(UTC) 국산화</h4>
-                <img src="./image/반도체.png" alt="" class="utcImage">
+                <img src="./image/semicon.png" alt="" class="utcImage">
             </div>
             <div class="graphic_text">
                 <h4 class="utcText"><span>머리카락의 100분의 1</span></h4>
-                <img src="./image/패드.png" alt="" class="utcImage">
+                <img src="./image/pad.png" alt="" class="utcImage">
                 <h4 class="utcText">전자 IT 산업 분야에서 쓰이는 가장 얇은 동박</h4>
             </div>
             <div class="graphic_text">
@@ -123,10 +126,10 @@
     </section>
 
     <section id="elecfoil">
-        <div class="ele_width">
-            <h5>BUSINESS AREAS</h5>
-            <h3>ELECFOIL BUSINESS DIVISON</h3>
-            <p>고부가가치 Elecfoil 신제품 개발로 첨단
+        <div class="ele_width" >
+            <h5 data-aos="fade-left" data-aos-offset="500" data-aos-duration="1000" >BUSINESS AREAS</h5>
+            <h3 data-aos="fade-right" data-aos-offset="500" data-aos-duration="1000">ELECFOIL BUSINESS DIVISON</h3>
+            <p data-aos="fade-up" data-aos-offset="500" data-aos-duration="1000"> 고부가가치 Elecfoil 신제품 개발로 첨단
                 전자기기의 진화를 이끌고 있습니다.</p>
         </div>
         <div class="ele_img">
@@ -136,10 +139,10 @@
 
     <section id="energy">
         <div class="ene_width">
-            <h5>BUSINESS AREAS</h5>
-            <h3>ENERGY BUSINESS
+            <h5 data-aos="fade-right" data-aos-offset="500" data-aos-duration="1000">BUSINESS AREAS</h5>
+            <h3 data-aos="fade-left" data-aos-offset="500" data-aos-duration="1000">ENERGY BUSINESS
                 DIVISON</h3>
-            <p>리튬 2차전지의 핵심소재 생산으로 행복한
+            <p data-aos="fade-up" data-aos-offset="500" data-aos-duration="1000">리튬 2차전지의 핵심소재 생산으로 행복한
                 미래를 위한 성장 에너지를 제공합니다.</p>
             <div class="ene_img">
                 <img src="./image/halacious-OgvqXGL7XO4-unsplash.png" alt="">
@@ -155,7 +158,7 @@
                 <div class="st">
                     <h5>일진머티리얼즈</h5>
                     <h6>44,950</h6>
-                    <p><span><img src="./image/다각형 1.png" alt=""></span>1,200(-2.6%)</p>
+                    <p><span><img src="./image/figure.png" alt=""></span>1,200(-2.6%)</p>
                 </div>
                 <div class="market">
                     <h5>시가 총액</h5>
@@ -258,6 +261,9 @@
             </div>
         </div>
     </footer>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
